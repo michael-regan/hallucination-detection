@@ -18,4 +18,4 @@ and described in Lee et al (2022):
 
 When we use the full set of relations, LLMs usually behave well (no hallucinations). As soon as we start removing relations from this set, however, LLM **honesty** starts to deteriorate, that is, performance in checking set membership degrades.
 
-The generated results (bottom of notebook) where we catch GPT-4 not being honest. This happens in at least 84% of cases we test with GPT-4 (Oct, 2023), and is nearly just as frequent with GPT-4-1106, what we call `SPARQL semantic hallucination`.
+The sample generated results (bottom of notebook) show how we can catch GPT-4 red-handed being shifty. This happens in at least **84%** of cases we test with GPT-4 (Oct, 2023), and is nearly just as frequent with GPT-4-1106, what we call `SPARQL semantic hallucination`.
