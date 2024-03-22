@@ -2,7 +2,7 @@
 
 Data and script (OpenAI API) for the task of Knowledge Base Question Answering (KBQA) **semantic hallucination detection**, a novel task we describe in a recent paper (currently under review).
 
-In a few words, we show that Abstract Meaning Representation (AMR) can help detect erroneous generated SPARQL queries using Large Language Models (LLMs) for multilingual question answering (QA). Both AMR and SPARQL are semantic structures representing the meaning of a question; however, AMR graph coverage is greater than that of SPARQL (for a given knowledge base like DBPedia). Can we use a joint text-to-structure model to generate AMRs and SPARQL queries and examine the ranked n-best list to estimate the model's confidence in one versus the other? Basically, using semantic representations in a multi-task setup for model `interpretability` or `QA confidence estimation`!
+In a few words, we show that Abstract Meaning Representation (AMR) can help detect erroneous generated SPARQL queries using Large Language Models (LLMs) for multilingual question answering (QA). Both AMR and SPARQL are semantic structures representing the meaning of a question; however, AMR graph coverage is greater than that of SPARQL (for a given knowledge base like DBPedia). Can we use a joint text-to-structure model to generate AMRs and SPARQL queries and examine the ranked n-best list to estimate the model's confidence in one versus the other? Basically, using semantic representations in a multi-task setup for model **interpretability** or **QA confidence estimation**!
 
 A sample prompt: `data/gpt4-prompts-joint-amr-sparql-qald9-no-oracle_2023-10.json` 
 
